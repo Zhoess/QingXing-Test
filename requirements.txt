@@ -1,0 +1,6 @@
+# Runtime: Python 3.8+ with tkinter (bundled with the official Windows installer).
+# Optional, improves HTML e-mail readability:
+beautifulsoup4>=4.9
+# Optional: Windows DPAPI protection for the mail password. The app falls back
+# to a base64 local value when pywin32 is unavailable.
+pywin32>=227; sys_platform == "win32"
